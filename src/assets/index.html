@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <h1>Calcule seu IMC</h1>
+        <div>
+            <table>
+                <tr>
+                    <td>Peso</th>
+                    <td>Altura</th>
+                </tr>
+                <tr>
+                    <td><input type="number" id="inputPeso"></td>
+                    <td><input type="number" id="inputAltura"></td>
+                </tr>
+            </table>
+            <label id="resLbl"></label></br>
+            <button onclick="calcularImc()">Calcular</button>
+            <table class="classImc" cellspacing="30">
+                <tr>
+                    <td colspan="3"><strong>CLASSIFICAÇÃO DE IMC</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>IMC</strong></td>
+                    <td><strong>CLASSIFICAÇÃO</strong></td>
+                    <td><strong>GRAU DE OBESIDADE</strong></td>
+                </tr>
+                <tr>
+                    <td>MENOR QUE 18,5</td>
+                    <td>MAGREZA</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>ENTRE 18,5 E 24,9</td>
+                    <td>NORMAL</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>ENTRE 25,0 E 29,9</td>
+                    <td>SOBREPESO</td>
+                    <td>I</td>
+                </tr>
+                <tr>
+                    <td>ENTRE 30,0 E 39,9</td>
+                    <td>OBESIDADE</td>
+                    <td>II</td>
+                </tr>
+                <tr>
+                    <td>MAIOR QUE 40,0</td>
+                    <td>OBESIDADE GRAVE</td>
+                    <td>III</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

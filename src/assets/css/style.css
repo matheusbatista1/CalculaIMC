@@ -1,0 +1,69 @@
+body {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(63, 12, 12);
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    background-color: rgb(117, 91, 91);
+    border-radius: 30px;
+    padding: 20px;
+    margin: auto;
+    font-size: 24px;
+}
+div table {
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+input[type="number"] {
+    border-radius: 30px;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    text-align: center;
+}
+
+div {
+    background-color: rgb(78, 60, 60);
+    border-radius: 30px;
+    margin: 50px 10px 10px;
+    padding: 30px;
+}
+
+button {
+    padding: 5px;
+    margin: 50px 0 0 0;
+    background-color: rgb(165, 126, 126);
+    border-radius: 30px;
+    width: 130px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background-color: rgb(128, 97, 97);
+    cursor: pointer;
+}
+
+label {
+    font-size: 36px;
+}
+
+.classImc{
+    font-size: 13px;
+    background-color: rgb(32, 31, 31);
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
