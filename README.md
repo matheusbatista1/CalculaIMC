@@ -1,7 +1,8 @@
 # CalculaIMC
 Ferramenta para Calcular IMC
-Desenvolvida utilizando HTML5, CSS3 e JavaScript
 _______________________
+
+Desenvolvida utilizando HTML5, CSS3 e JavaScript
 
 APÓS O DOWNLOADO DO ARQUIVO, PARA ACESSAR A FERRAMENTA:
 
